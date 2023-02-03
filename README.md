@@ -50,7 +50,9 @@ also provided initial evidence that such representations provide a
 holistic view of the entries and disentangle the underlying generative processes. It can be believe that the presented approach enables a
 human auditor or forensic accountant with the ability to sample
 journal entries for a detailed audit in an interpretable manner and
-therefore reduce the "sampling risk". In addition, it proposed a
+therefore reduce the "sampling risk". 
+
+In addition, it proposed a
 novel anomaly score that combines and entry’s learned representation and reconstruction error. It is demonstrated that the scoring
 can be interpreted as a highly adaptive and unsupervised anomaly
 assessment to detect global and accounting anomalies.
