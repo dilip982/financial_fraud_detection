@@ -38,6 +38,11 @@ it allows to effectively obtain a representative and interpretable
 sample of the data and thereby reduces the audits sampling risk.
 ![Screenshot](123.png)
 
+Further, the results lead us to conclude that the proposed
+anomaly score can be utilized as a highly adaptive anomaly assessment of financial accounting data. It furthermore provides the
+ability to interpret the detected anomalies of a particular mode in
+the context of the modes regular journal entry semantics.
+![Screenshot](213.png)
 # Conclusion
 This model provides a powerful tool for detecting accounting anomalies in large financial datasets. By leveraging the ability of deep learning to learn complex relationships in data, the model is able to identify anomalies that might otherwise be missed by traditional methods. The adversarial component of the model helps to ensure that the anomalies are not simply artifacts of the data reduction, making the results more robust and reliable.
 
