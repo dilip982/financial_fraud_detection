@@ -12,11 +12,11 @@ It shows that such a representation combined with the networks reconstruction er
 an unsupervised and highly adaptive anomaly assessment.The adversarial component of the model helps to ensure that the anomalies are not simply artifacts of the data reduction.
 
 # Requirements
-Python 3.6 or higher
-Tensorflow 2.0 or higher
-Numpy
-Pandas
-Matplotlib
+- Python 3.6 or higher
+- Tensorflow 2.0 or higher
+- Numpy
+- Pandas
+- Matplotlib
 # Usage
  1. Clone the repository to your local machine:
      
@@ -29,7 +29,14 @@ Matplotlib
 
     jupyter notebook AccountingAnomalyDetection.ipynb
 # Results
-The results of the model are evaluated using precision, recall, and F1 score metrics. On the test set, the model achieves an F1 score of 0.89, indicating that it is able to effectively identify the anomalies in the financial transactions.
+The results show that the AAE is capable
+of learning a semantic partition of a given set of journal entries
+according to that disentangles the entries underlying generative
+processes. The learned partition provides the auditor a holistic view
+on a given set of accounting data subject to audit. Furthermore,
+it allows to effectively obtain a representative and interpretable
+sample of the data and thereby reduces the audits sampling risk.
+![Screenshot](123.png)
 
 # Conclusion
 This model provides a powerful tool for detecting accounting anomalies in large financial datasets. By leveraging the ability of deep learning to learn complex relationships in data, the model is able to identify anomalies that might otherwise be missed by traditional methods. The adversarial component of the model helps to ensure that the anomalies are not simply artifacts of the data reduction, making the results more robust and reliable.
