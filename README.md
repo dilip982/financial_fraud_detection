@@ -44,6 +44,15 @@ ability to interpret the detected anomalies of a particular mode in
 the context of the modes regular journal entry semantics.
 ![Screenshot](213.png)
 # Conclusion
-This model provides a powerful tool for detecting accounting anomalies in large financial datasets. By leveraging the ability of deep learning to learn complex relationships in data, the model is able to identify anomalies that might otherwise be missed by traditional methods. The adversarial component of the model helps to ensure that the anomalies are not simply artifacts of the data reduction, making the results more robust and reliable.
+This model provides a powerful tool for detecting accounting anomalies in large financial datasets. By leveraging the ability of deep learning to learn complex relationships in data, the model is able to identify anomalies that might otherwise be missed by traditional methods. In this work, I showed that Adversarial Autoencoder (AAE) neural
+networks can be trained to learn a semantic meaningful representation of journal entries recorded in real-world ERP systems. I
+also provided initial evidence that such representations provide a
+holistic view of the entries and disentangle the underlying generative processes. It can be believe that the presented approach enables a
+human auditor or forensic accountant with the ability to sample
+journal entries for a detailed audit in an interpretable manner and
+therefore reduce the "sampling risk". In addition, it proposed a
+novel anomaly score that combines and entry’s learned representation and reconstruction error. It is demonstrated that the scoring
+can be interpreted as a highly adaptive and unsupervised anomaly
+assessment to detect global and accounting anomalies.
 
 
