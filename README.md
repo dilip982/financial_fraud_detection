@@ -6,6 +6,7 @@ The detection of fraud in accounting data is a long-standing challenge in financ
 representation provides a holistic view on a given set of journal
 entries and significantly improves the interpretability of detected
 accounting anomalies. 
+![Screenshot](Screenshot_1.jpg)
 
 It shows that such a representation combined with the networks reconstruction error can be utilized as
 an unsupervised and highly adaptive anomaly assessment.The adversarial component of the model helps to ensure that the anomalies are not simply artifacts of the data reduction.
